@@ -1,0 +1,40 @@
+#OK
+#SQL= select SH.GalaxyID, SH.Redshift as z, SH.SubGroupNumber, SH.CentreOfPotential_x, SH.CentreOfPotential_y, SH.CentreOfPotential_z,SH.Image_Face as face FROM RecalL0025N0752_Subhalo as SH , RecalL0025N0752_Subhalo as REF WHERE REF.GalaxyID=1608845 and ((SH.SnapNum > REF.SnapNum and REF.GalaxyID between SH.GalaxyID and SH.TopLeafID ) or (SH.SnapNum <= REF.SnapNum and SH.GalaxyID between REF.GalaxyID and REF.TopLeafID )) ORDER BY SH.Redshift
+#MAXROWS UNLIMITED
+#QUERYTIMEOUT 1800 sec
+#QUERYTIME 1671 millisec
+#COLUMN 1 name=GalaxyID JDBC_TYPE=-5 JDBC_TYPENAME=bigint
+#COLUMN 2 name=z JDBC_TYPE=7 JDBC_TYPENAME=real
+#COLUMN 3 name=SubGroupNumber JDBC_TYPE=4 JDBC_TYPENAME=int
+#COLUMN 4 name=CentreOfPotential_x JDBC_TYPE=7 JDBC_TYPENAME=real
+#COLUMN 5 name=CentreOfPotential_y JDBC_TYPE=7 JDBC_TYPENAME=real
+#COLUMN 6 name=CentreOfPotential_z JDBC_TYPE=7 JDBC_TYPENAME=real
+#COLUMN 7 name=face JDBC_TYPE=-9 JDBC_TYPENAME=nvarchar
+GalaxyID,z,SubGroupNumber,CentreOfPotential_x,CentreOfPotential_y,CentreOfPotential_z,face
+1608845,2.220446E-16,0,14.284361,11.325989,7.828838,<img src='http://virgodb.cosma.dur.ac.uk/eagle-webstorage/RecalL0025N0752_Subhalo/galface_1608845.png'>
+1608846,0.10063854,0,14.403889,11.362272,7.8738594,<img src='http://virgodb.cosma.dur.ac.uk/eagle-webstorage/RecalL0025N0752_Subhalo/galface_1608846.png'>
+1608847,0.18270987,0,14.475612,11.3762455,7.892772,<img src='http://virgodb.cosma.dur.ac.uk/eagle-webstorage/RecalL0025N0752_Subhalo/galface_1608847.png'>
+1608848,0.27090108,0,14.554523,11.38717,7.9154983,<img src='http://virgodb.cosma.dur.ac.uk/eagle-webstorage/RecalL0025N0752_Subhalo/galface_1608848.png'>
+1608849,0.36566857,0,14.6136265,11.39337,7.9115763,<img src='http://virgodb.cosma.dur.ac.uk/eagle-webstorage/RecalL0025N0752_Subhalo/galface_1608849.png'>
+1608850,0.5031073,0,14.666939,11.371914,7.9118414,<img src='http://virgodb.cosma.dur.ac.uk/eagle-webstorage/RecalL0025N0752_Subhalo/galface_1608850.png'>
+1608851,0.6151898,0,14.71985,11.3715315,7.912392,<img src='http://virgodb.cosma.dur.ac.uk/eagle-webstorage/RecalL0025N0752_Subhalo/galface_1608851.png'>
+1608852,0.7356296,0,14.792746,11.351346,7.9160466,<img src='http://virgodb.cosma.dur.ac.uk/eagle-webstorage/RecalL0025N0752_Subhalo/galface_1608852.png'>
+1608853,0.86505055,0,14.862076,11.329843,7.922157,<img src='http://virgodb.cosma.dur.ac.uk/eagle-webstorage/RecalL0025N0752_Subhalo/galface_1608853.png'>
+1608854,1.0041217,0,14.914896,11.319618,7.9397507,<img src='http://virgodb.cosma.dur.ac.uk/eagle-webstorage/RecalL0025N0752_Subhalo/galface_1608854.png'>
+1608855,1.2593315,0,14.975274,11.312637,7.949048,<img src='http://virgodb.cosma.dur.ac.uk/eagle-webstorage/RecalL0025N0752_Subhalo/galface_1608855.png'>
+1608856,1.4867073,0,15.014734,11.314042,7.948402,
+1608857,1.7369658,0,15.050128,11.315458,7.936967,
+1608858,2.0124102,0,15.083353,11.307399,7.9056396,
+1608859,2.237037,0,15.090317,11.314303,7.893881,
+1608860,2.4784133,0,15.0838,11.335921,7.8831635,
+1608861,3.0165045,0,15.023898,11.349769,7.863528,
+1608862,3.5279765,1,15.053586,11.4184885,7.865834,
+1608863,3.9836636,0,15.12058,11.448699,7.859373,
+1608864,4.4852138,0,15.109378,11.471999,7.8410425,
+1608865,5.0372367,0,15.107907,11.487717,7.82143,
+1608866,5.4874153,0,15.093759,11.49655,7.7938786,
+1608867,5.9711623,0,15.097978,11.496605,7.7736516,
+1608868,7.0495663,0,15.103491,11.518477,7.76086,
+1608869,8.074616,1,15.068063,11.506592,7.760548,
+1608870,8.987875,0,15.064936,11.500405,7.759783,
+1608871,9.993033,0,15.061816,11.499361,7.76118,

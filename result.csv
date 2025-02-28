@@ -1,0 +1,20 @@
+The destination name is too long (465), reducing to 236
+--2025-02-28 11:46:30--  http://galaxy-catalogue.dur.ac.uk:8080/Eagle?action=doQuery&SQL=select%20SH.GalaxyID,%20SH.Redshift%20as%20z,%20SH.SubGroupNumber,%20SH.CentreOfPotential_x,%20SH.CentreOfPotential_y,%20SH.CentreOfPotential_z,SH.Image_Face%20as%20face%20FROM%20RecalL0025N0752_Subhalo%20as%20SH%20,%20RecalL0025N0752_Subhalo%20as%20REF%20WHERE%20REF.GalaxyID=1785362%20and%20((SH.SnapNum%20%3E%20REF.SnapNum%20and%20REF.GalaxyID%20between%20SH.GalaxyID%20and%20SH.TopLeafID%20)%20or%20(SH.SnapNum%20%3C=%20REF.SnapNum%20and%20SH.GalaxyID%20between%20REF.GalaxyID%20and%20REF.TopLeafID%20))%20ORDER%20BY%20SH.Redshift
+Распознаётся galaxy-catalogue.dur.ac.uk (galaxy-catalogue.dur.ac.uk)… 129.234.196.27
+Подключение к galaxy-catalogue.dur.ac.uk (galaxy-catalogue.dur.ac.uk)|129.234.196.27|:8080... соединение установлено.
+HTTP-запрос отправлен. Ожидание ответа… 302 
+Адрес: /Eagle/?action=doQuery&SQL=select%20SH.GalaxyID,%20SH.Redshift%20as%20z,%20SH.SubGroupNumber,%20SH.CentreOfPotential_x,%20SH.CentreOfPotential_y,%20SH.CentreOfPotential_z,SH.Image_Face%20as%20face%20FROM%20RecalL0025N0752_Subhalo%20as%20SH%20,%20RecalL0025N0752_Subhalo%20as%20REF%20WHERE%20REF.GalaxyID=1785362%20and%20((SH.SnapNum%20%3E%20REF.SnapNum%20and%20REF.GalaxyID%20between%20SH.GalaxyID%20and%20SH.TopLeafID%20)%20or%20(SH.SnapNum%20%3C=%20REF.SnapNum%20and%20SH.GalaxyID%20between%20REF.GalaxyID%20and%20REF.TopLeafID%20))%20ORDER%20BY%20SH.Redshift [переход]
+The destination name is too long (465), reducing to 236
+--2025-02-28 11:46:31--  http://galaxy-catalogue.dur.ac.uk:8080/Eagle/?action=doQuery&SQL=select%20SH.GalaxyID,%20SH.Redshift%20as%20z,%20SH.SubGroupNumber,%20SH.CentreOfPotential_x,%20SH.CentreOfPotential_y,%20SH.CentreOfPotential_z,SH.Image_Face%20as%20face%20FROM%20RecalL0025N0752_Subhalo%20as%20SH%20,%20RecalL0025N0752_Subhalo%20as%20REF%20WHERE%20REF.GalaxyID=1785362%20and%20((SH.SnapNum%20%3E%20REF.SnapNum%20and%20REF.GalaxyID%20between%20SH.GalaxyID%20and%20SH.TopLeafID%20)%20or%20(SH.SnapNum%20%3C=%20REF.SnapNum%20and%20SH.GalaxyID%20between%20REF.GalaxyID%20and%20REF.TopLeafID%20))%20ORDER%20BY%20SH.Redshift
+Повторное использование соединения с galaxy-catalogue.dur.ac.uk:8080.
+HTTP-запрос отправлен. Ожидание ответа… 401 
+Выбранная аутентификация: Basic realm="Note: accounts reset as of 21 July 2020.  New accounts can be requested at http://virgodb.dur.ac.uk ."
+Повторное использование соединения с galaxy-catalogue.dur.ac.uk:8080.
+HTTP-запрос отправлен. Ожидание ответа… 200 
+Длина: нет данных [text/plain]
+Сохранение в: ‘Eagle?action=doQuery&SQL=select SH.GalaxyID, SH.Redshift as z, SH.SubGroupNumber, SH.CentreOfPotential_x, SH.CentreOfPotential_y, SH.CentreOfPotential_z,SH.Image_Face as face FROM RecalL0025N0752_Subhalo as SH , RecalL0025N0752_Subhalo ’
+
+     0K ...                                                    6,88M=0,001s
+
+2025-02-28 11:46:33 (6,88 MB/s) - ‘Eagle?action=doQuery&SQL=select SH.GalaxyID, SH.Redshift as z, SH.SubGroupNumber, SH.CentreOfPotential_x, SH.CentreOfPotential_y, SH.CentreOfPotential_z,SH.Image_Face as face FROM RecalL0025N0752_Subhalo as SH , RecalL0025N0752_Subhalo ’ сохранён [3731]
+
