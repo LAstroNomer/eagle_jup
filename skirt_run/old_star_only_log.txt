@@ -1,0 +1,54 @@
+06/03/2025 23:23:34.317   SKIRT v9.0 (git 6b8531e built on 13/02/2023 at 15:47:58)
+06/03/2025 23:23:34.317   Running on LAstroNomer for android
+06/03/2025 23:23:34.317   Starting simulation old_star_only using 12 threads and a single process...
+06/03/2025 23:23:34.317   Starting setup...
+06/03/2025 23:23:34.317     Panchromatic wavelength regime
+06/03/2025 23:23:34.317     No transfer medium
+06/03/2025 23:23:34.317     Model symmetry: 3D
+06/03/2025 23:23:34.317   BruzualCharlotSEDFamily opened stored table /home/android/SKIRT/resources/SKIRT9_Resources_Core/SED/BruzualCharlotSEDFamily_Chabrier_hr.stab
+06/03/2025 23:23:34.317   ParticleSource reads smoothed source particles from text file /home/android/Рабочий стол/Работа/eagle/skirt_run/star_tmp.txt...
+06/03/2025 23:23:34.317     Column 1: position x (kpc) <-- x-coordinate
+06/03/2025 23:23:34.317     Column 2: position y (kpc) <-- y-coordinate
+06/03/2025 23:23:34.317     Column 3: position z (kpc) <-- z-coordinate
+06/03/2025 23:23:34.317     Column 4: size h (kpc) <-- smoothing length
+06/03/2025 23:23:34.317     Column 5: current mass (Msun) <-- current mass
+06/03/2025 23:23:34.317     Column 6: initial mass (Msun) <-- initial mass
+06/03/2025 23:23:34.317     Column 7: metallicity (1) <-- metallicity
+06/03/2025 23:23:34.317     Column 8: age (Gyr) <-- age
+06/03/2025 23:23:34.484   Done reading
+06/03/2025 23:23:34.484     Number of particles: 98167
+06/03/2025 23:23:34.484   Calculating luminosities for 98167 imported entities...
+06/03/2025 23:23:40.666   Calculated luminosities: 38.5%
+06/03/2025 23:23:45.683   Calculated luminosities: 80.2%
+06/03/2025 23:23:47.537   SEDInstrument spec allocated 7.66 KB of memory
+06/03/2025 23:23:47.538   BroadBand opened stored table /home/android/SKIRT/resources/SKIRT9_Resources_Core/Band/SLOAN_SDSS_U_BroadBand.stab
+06/03/2025 23:23:47.538   BroadBand opened stored table /home/android/SKIRT/resources/SKIRT9_Resources_Core/Band/SLOAN_SDSS_G_BroadBand.stab
+06/03/2025 23:23:47.538   BroadBand opened stored table /home/android/SKIRT/resources/SKIRT9_Resources_Core/Band/SLOAN_SDSS_R_BroadBand.stab
+06/03/2025 23:23:47.538   BroadBand opened stored table /home/android/SKIRT/resources/SKIRT9_Resources_Core/Band/SLOAN_SDSS_I_BroadBand.stab
+06/03/2025 23:23:47.538   BroadBand opened stored table /home/android/SKIRT/resources/SKIRT9_Resources_Core/Band/SLOAN_SDSS_Z_BroadBand.stab
+06/03/2025 23:23:47.549   FrameInstrument image00 allocated 38.1 MB of memory
+06/03/2025 23:23:47.549   BroadBand opened stored table /home/android/SKIRT/resources/SKIRT9_Resources_Core/Band/SLOAN_SDSS_U_BroadBand.stab
+06/03/2025 23:23:47.549   BroadBand opened stored table /home/android/SKIRT/resources/SKIRT9_Resources_Core/Band/SLOAN_SDSS_G_BroadBand.stab
+06/03/2025 23:23:47.549   BroadBand opened stored table /home/android/SKIRT/resources/SKIRT9_Resources_Core/Band/SLOAN_SDSS_R_BroadBand.stab
+06/03/2025 23:23:47.549   BroadBand opened stored table /home/android/SKIRT/resources/SKIRT9_Resources_Core/Band/SLOAN_SDSS_I_BroadBand.stab
+06/03/2025 23:23:47.549   BroadBand opened stored table /home/android/SKIRT/resources/SKIRT9_Resources_Core/Band/SLOAN_SDSS_Z_BroadBand.stab
+06/03/2025 23:23:47.560   FrameInstrument image90 allocated 38.1 MB of memory
+06/03/2025 23:23:47.560 - Finished setup in 13.2 s.
+06/03/2025 23:23:47.560   Starting setup output...
+06/03/2025 23:23:47.560 - Finished setup output in 0.0 s.
+06/03/2025 23:23:47.560   Starting the run...
+06/03/2025 23:23:47.560   Starting primary emission...
+06/03/2025 23:23:47.560   Launching 1e8 primary emission photon packets
+06/03/2025 23:23:52.560   Launched primary emission photon packets: 22.9%
+06/03/2025 23:23:57.561   Launched primary emission photon packets: 44.6%
+06/03/2025 23:24:02.561   Launched primary emission photon packets: 64.8%
+06/03/2025 23:24:07.561   Launched primary emission photon packets: 84.6%
+06/03/2025 23:24:11.958 - Finished primary emission in 24.4 s.
+06/03/2025 23:24:11.958 - Finished the run in 24.4 s.
+06/03/2025 23:24:11.958   Starting final output...
+06/03/2025 23:24:11.960   SEDInstrument spec wrote SED to /home/android/Рабочий стол/Работа/eagle/skirt_run/old_star_only_spec_sed.dat
+06/03/2025 23:24:11.979   FrameInstrument image00 wrote total flux to FITS file /home/android/Рабочий стол/Работа/eagle/skirt_run/old_star_only_image00_total.fits
+06/03/2025 23:24:11.997   FrameInstrument image90 wrote total flux to FITS file /home/android/Рабочий стол/Работа/eagle/skirt_run/old_star_only_image90_total.fits
+06/03/2025 23:24:11.997 - Finished final output in 0.0 s.
+06/03/2025 23:24:11.997 - Finished simulation old_star_only using 12 threads and a single process in 37.7 s.
+06/03/2025 23:24:11.997   Available memory: 15.3 GB -- Peak memory usage: 144 MB (0.9%)
